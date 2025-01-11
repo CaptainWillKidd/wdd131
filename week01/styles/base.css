@@ -76,6 +76,7 @@ main {
     gap: 20px;
     background: #BFEDEA;
     padding: 20px;
+    max-width: fit-content;
 }
 
 main p {
