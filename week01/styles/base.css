@@ -91,7 +91,7 @@ main p {
     background-color: #F7FFF7;
     color: #292F36;
     text-align: justify;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .card1 h2, .card2 h2 {
@@ -103,9 +103,18 @@ main p {
 }
 
 footer {
-    background: #FF6B6B;
+    background: #FF4747;
     padding: 2rem;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     grid-column: 1 / 5;
+    color: #90E0DA;
+}
+
+.top {
+    display: inline-block;
+}
+
+.footer-bottom {
+    margin-top: 10px;
 }
