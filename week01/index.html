@@ -7,38 +7,48 @@
     <meta name="description" content="WDD 131 - Dynamic Web Fundamentals, Willian Alves Canuto, 
     about me, portfolio, projects, contact">
     <meta name="author" content="Willian Alves Canuto">
+
+    <link rel="stylesheet" href="styles/base.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap" rel="stylesheet">
+
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
     <header>
         <h1>WDD 131: Dynamic Web Fundamentals - Willian Alves Canuto</h1>
         <nav>
-            <a href="Linkedin">https://www.linkedin.com/in/willianalvescanuto/</a>
-            <a href="Canvas">https://byupw.instructure.com/</a>
-            <a href="Scripture">https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/5?lang=eng&id=p13#p13</a>
-            <a href="Final Project">place holder</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/5?lang=eng&id=p13#p13">Scripture</a>
+            <a href="Place Holder">Final Project</a>
+            <a href="https://www.linkedin.com/in/willianalvescanuto/">LinkedIn</a>
         </nav>
+
     </header>
 
     <main>
-        <section class="card 1">
+        <section class="card1">
             <h2>About Me</h2>
-            <img src="images/me.jpg" alt="Willian Alves Canuto">
+            <img class="image1" src="images/me.jpg" alt="Willian Alves Canuto">
             <p>My name is Willian Alves Canuto, I am from Brazil and I am a student at BYU-Idaho. 
                 I am majoring in Web Design and Development. I am a member of the Church of Jesus Christ of Latter-day Saints. 
                 I like to be a  hardworking person and I try always looking for ways to improve myself. 
                 I am a very friendly person and I love to make new friends. 
                 I am always looking for ways to help others and make the world a better place.
-                And I love to play video games, play music like in piano and beeing a temple worker in São Paulo, Brazil</p>
+                And I love to play video games, play music like in piano and beeing a temple worker in São Paulo, Brazil.
+            </p>
             
             <h3>São Paulo, Sp - Brazil</h3>
-            <img src="images/sao_paulo_bandeira.jpg" alt="Flag of São Paulo">
+            <img class="image2" src="images/sao_paulo_bandeira.jpg" alt="Flag of São Paulo">
             <p>São Paulo is the biggest city in Brazil, a lot of importants events and others things is here, like the Brasil Game Show,
                 when Russel M. Nelson cames to Brazil in 2019, he was in São Paulo, and the first temple of Brazil is here too.
             </p>
 
         </section>
 
-        <section class="card 2">
+        <section class="card2">
             <h2>Web Dev Resources</h2>
             <ul>
                 <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
@@ -49,7 +59,8 @@
     </main>
 
     <footer>
-
+        <span id="currentyear"></span> &copy; Willian Alves Canuto | São Paulo, Brazil
+        <span id="lastmodified"></span>
     </footer>
 </body>
 </html>
