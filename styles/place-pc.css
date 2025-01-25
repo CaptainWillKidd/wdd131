@@ -29,6 +29,7 @@ header {
     box-shadow: 0 0 30px var(--box-shadow-color);
     color: var(--text-color);
     text-align: center;
+    font-size: 28px;
 }
 
 main {
