@@ -6,6 +6,9 @@
     <title>Country Page</title>
     <meta name="description" content="This is the country page">
     <meta name="author" content="Willian Alves Canuto">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/place-pc.css">
     <link rel="stylesheet" href="styles/place-phone.css">
     <script src="scripts/place.js" defer></script>
@@ -16,11 +19,12 @@
     </header>
 
     <main>
-        <section>
+        <div class="container">
             <div class="hero">
                 <picture>
-                    <source media="(min-width: )" srcset="">
-                    <img src="" alt="">
+                    <source media="(min-width: 750px)" srcset="images/sugarsbread-desktop.webp">
+                    <source media="(max-width: 749px)" srcset="images/sugarsbread-mobile.webp">
+                    <img src="images/sugarsbread-mobile.webp" alt="Pão de Açucar - Rio de Janeiro">
                 </picture>
             </div>
 
@@ -35,15 +39,15 @@
                 <p>Calling Code: +55</p>
             </div>
 
-            <div class="Weather">
-                <h2>Weather</h2>
-                <img src="images/wether-icon.svg" alt="Weather Icon">
+            <div class="weather-container">
+                <h2 class=".weather-container h2">Weather</h2>
+                <img class="icon" src="images/weather-icon.svg" alt="Weather Icon">
                 <p>Temperature: 25°C</p>
                 <p>Humidity: 80%</p>
                 <p>Wind: 10 km/h</p>
                 <p>Pressure: 1013 hPa</p>
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>

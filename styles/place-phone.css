@@ -1,0 +1,19 @@
+@media screen and (max-width: 749px) {
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .data, .weather-container {
+        position: relative;
+        border-radius: 8px;
+        box-shadow: 0 0 1px var(--box-shadow-color);
+        background-color: yellow;
+        font-size: 1.2rem; 
+        font-weight: bold;
+        text-align: center;
+        padding: 30px;
+    }
+
+}
