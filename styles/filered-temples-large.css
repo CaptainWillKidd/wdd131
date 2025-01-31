@@ -1,0 +1,16 @@
+@media (max-width: 739px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (min-width: 740px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
