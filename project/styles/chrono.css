@@ -1,0 +1,20 @@
+:root{
+    --primary: #A8DADC;
+    --secondary: #7F1019;
+    --accent: #F1FAEE;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-color: var(--primary);
+    color: #333;
+}
+
+h1, h2 {
+    color: var(--secondary);
+    font-family: "playfair display", sans-serif;
+}
+
+.accent {
+    color: var(--accent);
+}
