@@ -1,0 +1,7 @@
+@media screen and (max-width: 739px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}

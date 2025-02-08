@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <meta name="description" content="Product Review Form">
+    <meta name="author" content="Willian Alves Canuto">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/form-mobile.css">
+    <script src="scripts/form.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><h1>Product Review</h1></header>
+    <main>
+        <form action="review.html" method="get" class="product-review">
+            <fieldset>
+                <label for="product-select">Product Name
+                     <select id="product-select" name="product">
+                            <option value="">Choose a Product... &#9662;</option>
+                     </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <label>Overall Rating</label>
+                <label><input type="radio" name="Rating" value="1" required>⭐</label>
+                <label><input type="radio" name="Rating" value="2" required>⭐⭐</label>
+                <label><input type="radio" name="Rating" value="3" required>⭐⭐⭐</label>
+                <label><input type="radio" name="Rating" value="4" required>⭐⭐⭐⭐</label>
+                <label><input type="radio" name="Rating" value="5" required>⭐⭐⭐⭐⭐</label>
+            </fieldset>
+
+            <fieldset>
+                <label>Date of Installation</label>
+                <input type="date" name="install-date" id="install-date" required>
+            </fieldset>
+
+            <fieldset>
+                <label>Which features did you find useful in the product?
+                    (Check all that apply)
+                </label>
+                <label><input type="checkbox" name="features" value="Durability">Durability</label>
+                <label><input type="checkbox" name="features" value="Ease of Use">Ease of Use</label>
+                <label><input type="checkbox" name="features" value="Performace">Performace</label>
+                <label><input type="checkbox" name="features" value="Design">Design</label>
+            </fieldset>
+
+            <fieldset>
+                <label>Written Review (Optional)</label>
+                <textarea id="review" name="review" rows="5" cols="40" placeholder="Write your review here..."></textarea>
+            </fieldset>
+
+            <fieldset>
+                <label>Your name (Optional)</label>
+                <input type="text" name="name" id="name">
+            </fieldset>
+
+            <input type="submit" value="Submit Review">
+        </form>
+    </main>
+
+    <footer>
+        <div class="top">
+            <span id="currentyear"></span> &copy; 🗿Willian Alves Canuto🗿 | São Paulo, Brazil
+        </div>
+
+        <div class="footer-bottom">
+            <span id="lastmodified"></span>
+        </div>
+    </footer>
+</body>
+</html>
