@@ -72,7 +72,7 @@ main {
     margin-right: 6px;
 }
 
-.product-review input[type="submit"]{
+.product-review button[type="submit"]{
     border: none;
     background-image: linear-gradient(#F2C078, #DF8B16);
     color: #fff;
