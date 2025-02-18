@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrono Trigger Story Page</title>
+    <meta name="description" content="In this site will be content of the game chrono trigger explain his story, characters, etc.">
+    <meta name="author" content="Willian Alves Canuto">
+    <link rel="stylesheet" href="styles/chrono.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <script src="scripts/chrono.js"></script>
+</head>
+<body>
+    <nav>
+        <h2>Chrono Trigger - Home</h2>
+        <button class="hamburger" aria-label="Toggle navigation">
+            &#9776;
+        </button>
+        <ul class="navigation">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Characters.html">Characters</a></li>
+            <li><a href="Story.html">Story</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero-banner-story">
+        <div class="hero-content">
+          <h1>An Epic Story</h1>
+          <p>Discover more and learn about this epic adventure</p>
+        </div>
+      </header>
+
+      <main>
+        <section id="story-summary">
+          <h2>The Epic Journey Through Time</h2>
+          <p>
+            Chrono Trigger follows the story of Crono, a young adventurer who accidentally travels through time during the Millennial Fair. 
+            Alongside his friends Marle and Lucca, Crono discovers a looming threat: Lavos, a parasitic creature that will destroy the world in the future. 
+            To prevent this catastrophe, the group embarks on an epic journey across different eras, from the prehistoric past to the distant future. 
+            They meet allies like Frog, a knight cursed to live as an amphibian, and Magus, a mysterious sorcerer with his own agenda. 
+            Together, they must unravel the secrets of time, alter history, and confront Lavos to save the planet.
+          </p>
+        </section>
+    
+        <section id="game-map">
+          <h2>Explore the World of Chrono Trigger</h2>
+          <div class="map-container">
+            <img src="images/map.webp" alt="Chrono Trigger World Map" loading="lazy">
+            <div class="map-highlight" style="top: 30%; left: 40%;" data-location="Guardia Castle"></div>
+            <div class="map-highlight" style="top: 50%; left: 60%;" data-location="Magus's Castle"></div>
+
+            <div class="map-tooltip" id="map-tooltip"></div>
+          </div>
+        </section>
+      </main>
+
+    <footer>
+        <div class="top">
+            <span id="currentyear"></span> &copy; 🗿Willian Alves Canuto🗿 | São Paulo, Brazil
+        </div>
+
+        <div class="footer-bottom">
+            <span id="lastmodified"></span>
+        </div>
+    </footer>
+</body>
+</html>
